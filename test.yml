@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: Print Hello 
+    debug: msg="Hello this is to test RHAAP automation"
